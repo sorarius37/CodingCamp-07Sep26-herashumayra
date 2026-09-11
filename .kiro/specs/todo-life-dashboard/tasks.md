@@ -69,8 +69,8 @@ Implement a single-page web application using HTML, CSS, and Vanilla JavaScript 
     - Test `init()` applies the loaded theme before first render
     - _Requirements: 10.2, 10.4_
 
-- [~] 4. Implement GreetingModule
-  - [-] 4.1 Implement pure helpers: `getGreetingPrefix(hour)`, `formatDate(date)`, `buildGreeting(hour, name)`
+- [x] 4. Implement GreetingModule
+  - [x] 4.1 Implement pure helpers: `getGreetingPrefix(hour)`, `formatDate(date)`, `buildGreeting(hour, name)`
     - `getGreetingPrefix(hour)`: return "Good Morning" for hours 5–11, "Good Afternoon" for 12–17, "Good Evening" for 18–20, "Good Night" for 21–23 and 0–4
     - `formatDate(date)`: return string like "Monday, 7 July 2025" using `toLocaleDateString` or manual formatting
     - `buildGreeting(hour, name)`: compose prefix + optional name (e.g., "Good Morning, Hera!" or "Good Morning")
@@ -97,14 +97,14 @@ Implement a single-page web application using HTML, CSS, and Vanilla JavaScript 
     - `stop()`: clear the interval
     - _Requirements: 1.1, 1.7, 1.8_
 
-- [~] 5. Implement SettingsModule
-  - [~] 5.1 Implement `SettingsModule.saveUserName(name)` and bind the name input
+- [x] 5. Implement SettingsModule
+  - [x] 5.1 Implement `SettingsModule.saveUserName(name)` and bind the name input
     - Trim the input value; if non-empty, call `StorageService.saveUserName(name)` and call `GreetingModule._render()` immediately with the new name; if empty, call `StorageService.remove(KEYS.USERNAME)` and re-render greeting without a name
     - Show inline validation if the name field submission results in clearing the stored name
     - Pre-populate the name input on `init()` from `StorageService.loadUserName()`
     - _Requirements: 2.1, 2.2, 2.3, 2.4, 2.5_
 
-  - [~] 5.2 Implement `SettingsModule.saveDuration(input)` and bind the duration input
+  - [x] 5.2 Implement `SettingsModule.saveDuration(input)` and bind the duration input
     - Validate input is a whole integer in [1, 120]; return `{ ok: false, error: '...' }` otherwise and show inline validation message
     - On valid input: call `StorageService.saveDuration(n)` and, if timer is idle, call `TimerModule.init(n)` to reset the display
     - Pre-populate the duration input on `init()` from `StorageService.loadDuration()`
@@ -115,12 +115,12 @@ Implement a single-page web application using HTML, CSS, and Vanilla JavaScript 
     - **Validates: Requirements 4.4**
     - Use `fc.oneof(fc.integer({ max: 0 }), fc.integer({ min: 121 }), fc.float().filter(n => !Number.isInteger(n)), fc.string())` — must return `{ ok: false }` and not mutate storage
 
-- [~] 6. Implement TimerModule
-  - [~] 6.1 Implement `TimerModule.formatTime(seconds)` pure helper
+- [x] 6. Implement TimerModule
+  - [x] 6.1 Implement `TimerModule.formatTime(seconds)` pure helper
     - Return `"MM:SS"` zero-padded string; `formatTime(0)` must return `"00:00"`
     - _Requirements: 3.3, 3.6_
 
-  - [~] 6.2 Implement `TimerModule.init()`, `start()`, `pause()`, and `reset()` with state machine
+  - [x] 6.2 Implement `TimerModule.init()`, `start()`, `pause()`, and `reset()` with state machine
     - `init(durationMinutes)`: set `_remaining = durationMinutes * 60`, `_state = 'idle'`, update the timer display
     - `start()`: only runs when `_state` is `'idle'` or `'paused'`; set `_state = 'running'`; start `setInterval(1000)` that decrements `_remaining`, calls `_updateDisplay()`, and on zero calls `_onComplete()`; update button enable/disable states
     - `pause()`: only when `_state === 'running'`; clear interval, set `_state = 'paused'`; update button states
@@ -128,7 +128,7 @@ Implement a single-page web application using HTML, CSS, and Vanilla JavaScript 
     - Guard in interval callback: `if (this._state !== 'running') return;` to prevent race conditions
     - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5, 3.8, 3.9_
 
-  - [~] 6.3 Implement `TimerModule._onComplete()` with audible alert
+  - [x] 6.3 Implement `TimerModule._onComplete()` with audible alert
     - Call `clearInterval`, set `_remaining = 0`, `_state = 'idle'`, update display to `"00:00"`
     - Create and play an `AudioContext`-based beep or use `new Audio(...)` to emit the audible alert
     - _Requirements: 3.6, 3.7_
@@ -226,7 +226,7 @@ Implement a single-page web application using HTML, CSS, and Vanilla JavaScript 
     - Show inline validation messages for add/edit errors adjacent to their inputs
     - _Requirements: 5.6, 5.7, 6.1, 6.2, 6.5, 7.1, 7.4, 7.5, 8.1, 8.3_
 
-- [ ] 8. Checkpoint — verify core modules
+- [x] 8. Checkpoint — verify core modules
   - Ensure StorageService, ThemeModule, GreetingModule, SettingsModule, TimerModule, and TodoModule are wired in `App.init()` and pass all their respective tests. Ask the user if any questions arise.
 
 - [x] 9. Implement LinksModule
@@ -277,7 +277,7 @@ Implement a single-page web application using HTML, CSS, and Vanilla JavaScript 
     - _Requirements: 11.3, 11.4_
 
 - [x] 11. UI polish — layout, typography, and responsive design
-  - [-] 11.1 Complete CSS layout for all four widgets and settings panel
+  - [x] 11.1 Complete CSS layout for all four widgets and settings panel
     - Implement CSS grid or flexbox dashboard layout that positions all four widgets visibly on a single page
     - Ensure the layout is readable on both desktop and tablet viewport widths (≥ 768 px)
     - Style the storage warning banner as a non-intrusive top-bar or snackbar
@@ -293,7 +293,7 @@ Implement a single-page web application using HTML, CSS, and Vanilla JavaScript 
     - Test that a completed task's DOM element has the CSS class or attribute that triggers strikethrough/opacity
     - _Requirements: 7.4_
 
-- [~] 12. Final checkpoint — full integration
+- [x] 12. Final checkpoint — full integration
   - Ensure all modules are wired together in `App.init()`, all tests pass, the three-file structure is intact, and the app loads correctly by opening `index.html` directly in a browser (no server required). Ask the user if any questions arise.
 
 ---

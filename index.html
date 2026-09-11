@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do Life Dashboard</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script defer src="js/app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer="" src="js/app.js"></script>
   </head>
   <body>
 
     <!-- Storage quota error banner -->
-    <div id="storage-warning" hidden role="alert" aria-live="polite">
+    <div id="storage-warning" hidden="" role="alert" aria-live="polite">
       <span id="storage-warning-message">Storage unavailable — data cannot be saved.</span>
-      <button type="button" id="storage-warning-close" aria-label="Dismiss warning">&times;</button>
+      <button type="button" id="storage-warning-close" aria-label="Dismiss warning">×</button>
     </div>
 
     <header>
@@ -38,7 +36,7 @@
         <div id="timer-display" aria-live="polite" aria-atomic="true">25:00</div>
         <div class="timer-controls" role="group" aria-label="Timer controls">
           <button id="timer-start" type="button">Start</button>
-          <button id="timer-pause" type="button" disabled>Pause</button>
+          <button id="timer-pause" type="button" disabled="">Pause</button>
           <button id="timer-reset" type="button">Reset</button>
         </div>
       </section>
@@ -48,16 +46,10 @@
         <h2>To-Do List</h2>
 
         <!-- Add Task Form -->
-        <form id="todo-add-form" novalidate>
+        <form id="todo-add-form" novalidate="">
           <div class="form-group">
             <label for="todo-input" class="visually-hidden">New task</label>
-            <input
-              id="todo-input"
-              type="text"
-              placeholder="Add a new task…"
-              autocomplete="off"
-              aria-required="true"
-            />
+            <input id="todo-input" type="text" placeholder="Add a new task…" autocomplete="off" aria-required="true">
             <button type="submit">Add</button>
           </div>
           <div id="todo-add-error" class="inline-error" role="alert" aria-live="polite"></div>
@@ -87,26 +79,14 @@
         <h2>Quick Links</h2>
 
         <!-- Add Link Form -->
-        <form id="links-add-form" novalidate>
+        <form id="links-add-form" novalidate="">
           <div class="form-group">
             <label for="link-label-input">Label</label>
-            <input
-              id="link-label-input"
-              type="text"
-              placeholder="Display name"
-              autocomplete="off"
-              aria-required="true"
-            />
+            <input id="link-label-input" type="text" placeholder="Display name" autocomplete="off" aria-required="true">
           </div>
           <div class="form-group">
             <label for="link-url-input">URL</label>
-            <input
-              id="link-url-input"
-              type="url"
-              placeholder="https://example.com"
-              autocomplete="off"
-              aria-required="true"
-            />
+            <input id="link-url-input" type="url" placeholder="https://example.com" autocomplete="off" aria-required="true">
           </div>
           <button type="submit">Add Link</button>
           <div id="links-add-error" class="inline-error" role="alert" aria-live="polite"></div>
@@ -124,12 +104,7 @@
         <div class="settings-group">
           <label for="settings-username">Your Name</label>
           <div class="form-group">
-            <input
-              id="settings-username"
-              type="text"
-              placeholder="Enter your name"
-              autocomplete="name"
-            />
+            <input id="settings-username" type="text" placeholder="Enter your name" autocomplete="name">
             <button type="button" id="settings-username-save">Save</button>
           </div>
           <div id="settings-username-error" class="inline-error" role="alert" aria-live="polite"></div>
@@ -139,15 +114,7 @@
         <div class="settings-group">
           <label for="settings-duration">Pomodoro Duration (minutes)</label>
           <div class="form-group">
-            <input
-              id="settings-duration"
-              type="number"
-              min="1"
-              max="120"
-              step="1"
-              placeholder="25"
-              aria-describedby="settings-duration-hint"
-            />
+            <input id="settings-duration" type="number" min="1" max="120" step="1" placeholder="25" aria-describedby="settings-duration-hint">
             <button type="button" id="settings-duration-save">Save</button>
           </div>
           <div id="settings-duration-hint" class="input-hint">Enter a whole number between 1 and 120.</div>
@@ -157,5 +124,6 @@
 
     </main>
 
-  </body>
-</html>
+  
+
+</body></html>
