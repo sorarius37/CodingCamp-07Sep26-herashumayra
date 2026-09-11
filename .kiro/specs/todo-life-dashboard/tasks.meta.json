@@ -1,0 +1,282 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create `index.html` with semantic HTML5 structure": [
+      {
+        "executionId": "bed745e6-dc3c-4654-86bd-1096499f66fb",
+        "chatSessionId": "sess_830c21cc-97b2-4c7e-a757-c94b3ba88527",
+        "timestamp": 1789065070320
+      },
+      {
+        "executionId": "bed745e6-dc3c-4654-86bd-1096499f66fb",
+        "chatSessionId": "sess_830c21cc-97b2-4c7e-a757-c94b3ba88527",
+        "timestamp": 1789065644660
+      }
+    ],
+    "1.2 Set up `css/style.css` with CSS custom properties for theming": [
+      {
+        "executionId": "bed745e6-dc3c-4654-86bd-1096499f66fb",
+        "chatSessionId": "sess_830c21cc-97b2-4c7e-a757-c94b3ba88527",
+        "timestamp": 1789065080347
+      },
+      {
+        "executionId": "bed745e6-dc3c-4654-86bd-1096499f66fb",
+        "chatSessionId": "sess_830c21cc-97b2-4c7e-a757-c94b3ba88527",
+        "timestamp": 1789065649186
+      }
+    ],
+    "1.3 Set up the `js/app.js` skeleton with module stubs and `App.init()`": [
+      {
+        "executionId": "bed745e6-dc3c-4654-86bd-1096499f66fb",
+        "chatSessionId": "sess_830c21cc-97b2-4c7e-a757-c94b3ba88527",
+        "timestamp": 1789065085073
+      },
+      {
+        "executionId": "bed745e6-dc3c-4654-86bd-1096499f66fb",
+        "chatSessionId": "sess_830c21cc-97b2-4c7e-a757-c94b3ba88527",
+        "timestamp": 1789065654452
+      }
+    ],
+    "1. Scaffold project structure and base HTML": [
+      {
+        "executionId": "bed745e6-dc3c-4654-86bd-1096499f66fb",
+        "chatSessionId": "sess_830c21cc-97b2-4c7e-a757-c94b3ba88527",
+        "timestamp": 1789065654543
+      }
+    ],
+    "2.1 Implement `StorageService` with all CRUD methods": [
+      {
+        "executionId": "107ff27a-7111-4b96-b40b-7105ef286b03",
+        "chatSessionId": "sess_6cc07c29-1f86-4a3f-a22e-8b68bdc3c6b3",
+        "timestamp": 1789065898163
+      },
+      {
+        "executionId": "107ff27a-7111-4b96-b40b-7105ef286b03",
+        "chatSessionId": "sess_6cc07c29-1f86-4a3f-a22e-8b68bdc3c6b3",
+        "timestamp": 1789065955374
+      }
+    ],
+    "2. Implement StorageService": [
+      {
+        "executionId": "107ff27a-7111-4b96-b40b-7105ef286b03",
+        "chatSessionId": "sess_6cc07c29-1f86-4a3f-a22e-8b68bdc3c6b3",
+        "timestamp": 1789065955901
+      }
+    ],
+    "3.1 Implement `ThemeModule` with `init()`, `apply()`, `toggle()`, and `current()`": [
+      {
+        "executionId": "566ec70c-db04-491e-9632-88a026875792",
+        "chatSessionId": "sess_2671e0dd-cf51-4418-84c9-929b771a1baa",
+        "timestamp": 1789066031928
+      },
+      {
+        "executionId": "566ec70c-db04-491e-9632-88a026875792",
+        "chatSessionId": "sess_2671e0dd-cf51-4418-84c9-929b771a1baa",
+        "timestamp": 1789066081899
+      }
+    ],
+    "3. Implement ThemeModule": [
+      {
+        "executionId": "566ec70c-db04-491e-9632-88a026875792",
+        "chatSessionId": "sess_2671e0dd-cf51-4418-84c9-929b771a1baa",
+        "timestamp": 1789066082685
+      }
+    ],
+    "4.1 Implement pure helpers: `getGreetingPrefix(hour)`, `formatDate(date)`, `buildGreeting(hour, name)`": [
+      {
+        "executionId": "6ed56e02-a9af-4001-8854-f5338408ae60",
+        "chatSessionId": "sess_a3598aa0-1900-49e9-af9c-cb10d6259919",
+        "timestamp": 1789066172799
+      }
+    ],
+    "4.5 Implement `GreetingModule._render()` and `start()` / `stop()`": [
+      {
+        "executionId": "3a32e410-10d5-4390-a848-26eb6418a927",
+        "chatSessionId": "sess_6afc7a55-0023-47a4-90ff-573827d20ebc",
+        "timestamp": 1789069881387
+      },
+      {
+        "executionId": "3a32e410-10d5-4390-a848-26eb6418a927",
+        "chatSessionId": "sess_6afc7a55-0023-47a4-90ff-573827d20ebc",
+        "timestamp": 1789069961608
+      }
+    ],
+    "7.1 Implement `TodoModule.init()` — load tasks from storage": [
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789070547692
+      },
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789071407256
+      }
+    ],
+    "7.2 Implement `TodoModule.addTask(text)` with duplicate detection": [
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789071412094
+      },
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789071418980
+      }
+    ],
+    "7.6 Implement `TodoModule.editTask(id, newText)`": [
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789071423881
+      },
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789071428849
+      }
+    ],
+    "7.9 Implement `TodoModule.toggleTask(id)` and `deleteTask(id)`": [
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789071446419
+      },
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789071454576
+      }
+    ],
+    "7.12 Implement `TodoModule.sortTasks(criterion)` and `getTaskSummary(tasks)`": [
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789071458965
+      },
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789071463346
+      }
+    ],
+    "7.15 Implement `TodoModule.render()`": [
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789071467431
+      },
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789071472258
+      }
+    ],
+    "7. Implement TodoModule": [
+      {
+        "executionId": "131a24d3-f3fe-4b60-8992-e72bafdd9f9b",
+        "chatSessionId": "sess_acf2a037-9fbd-4782-9eb2-9806d9f53d12",
+        "timestamp": 1789071472382
+      }
+    ],
+    "9.1 Implement `LinksModule.isValidUrl(url)` and `addLink(label, url)`": [
+      {
+        "executionId": "d014f68d-c406-424c-ba1d-6ac6fc9a5262",
+        "chatSessionId": "sess_7703b037-d3b0-4341-a961-33f4691322e7",
+        "timestamp": 1789071770727
+      },
+      {
+        "executionId": "d014f68d-c406-424c-ba1d-6ac6fc9a5262",
+        "chatSessionId": "sess_7703b037-d3b0-4341-a961-33f4691322e7",
+        "timestamp": 1789071825990
+      }
+    ],
+    "9.5 Implement `LinksModule.deleteLink(id)` and `render()`": [
+      {
+        "executionId": "2b21cb8f-0d59-4722-9f81-fa27231da29f",
+        "chatSessionId": "sess_f5267aaf-46c0-4d03-a484-a0b2c14a6dd3",
+        "timestamp": 1789071861775
+      },
+      {
+        "executionId": "2b21cb8f-0d59-4722-9f81-fa27231da29f",
+        "chatSessionId": "sess_f5267aaf-46c0-4d03-a484-a0b2c14a6dd3",
+        "timestamp": 1789071983740
+      }
+    ],
+    "9. Implement LinksModule": [
+      {
+        "executionId": "2b21cb8f-0d59-4722-9f81-fa27231da29f",
+        "chatSessionId": "sess_f5267aaf-46c0-4d03-a484-a0b2c14a6dd3",
+        "timestamp": 1789071984005
+      }
+    ],
+    "10.1 Wire full page-load hydration in `App.init()`": [
+      {
+        "executionId": "39549143-27e4-4d44-a6eb-74e1e9d30a7b",
+        "chatSessionId": "sess_f4e4fbd2-e3c0-4af1-8944-6ff9242d6fec",
+        "timestamp": 1789072027192
+      },
+      {
+        "executionId": "39549143-27e4-4d44-a6eb-74e1e9d30a7b",
+        "chatSessionId": "sess_f4e4fbd2-e3c0-4af1-8944-6ff9242d6fec",
+        "timestamp": 1789072298429
+      }
+    ],
+    "10.2 Implement the `storage-error` listener and warning banner": [
+      {
+        "executionId": "39549143-27e4-4d44-a6eb-74e1e9d30a7b",
+        "chatSessionId": "sess_f4e4fbd2-e3c0-4af1-8944-6ff9242d6fec",
+        "timestamp": 1789072031474
+      },
+      {
+        "executionId": "39549143-27e4-4d44-a6eb-74e1e9d30a7b",
+        "chatSessionId": "sess_f4e4fbd2-e3c0-4af1-8944-6ff9242d6fec",
+        "timestamp": 1789072307502
+      }
+    ],
+    "10. Implement page-load hydration and error handling": [
+      {
+        "executionId": "39549143-27e4-4d44-a6eb-74e1e9d30a7b",
+        "chatSessionId": "sess_f4e4fbd2-e3c0-4af1-8944-6ff9242d6fec",
+        "timestamp": 1789072307667
+      }
+    ],
+    "11.1 Complete CSS layout for all four widgets and settings panel": [
+      {
+        "executionId": "ba7f7283-7b56-493d-9a13-fbe66f9a6f70",
+        "chatSessionId": "sess_68eb5fd3-e3d4-474a-9936-a599d8d2470a",
+        "timestamp": 1789072419312
+      },
+      {
+        "executionId": "ba7f7283-7b56-493d-9a13-fbe66f9a6f70",
+        "chatSessionId": "sess_68eb5fd3-e3d4-474a-9936-a599d8d2470a",
+        "timestamp": 1789072593277
+      },
+      {
+        "executionId": "3c16c290-ee5d-461f-a4f6-893aa8ac1a07",
+        "chatSessionId": "sess_0b01f478-7494-4ef7-b218-ff3444cee1bf",
+        "timestamp": 1789072650447
+      }
+    ],
+    "11.2 Style completed vs. incomplete tasks and timer button states": [
+      {
+        "executionId": "ba7f7283-7b56-493d-9a13-fbe66f9a6f70",
+        "chatSessionId": "sess_68eb5fd3-e3d4-474a-9936-a599d8d2470a",
+        "timestamp": 1789072425302
+      },
+      {
+        "executionId": "ba7f7283-7b56-493d-9a13-fbe66f9a6f70",
+        "chatSessionId": "sess_68eb5fd3-e3d4-474a-9936-a599d8d2470a",
+        "timestamp": 1789072600115
+      }
+    ],
+    "11. UI polish — layout, typography, and responsive design": [
+      {
+        "executionId": "ba7f7283-7b56-493d-9a13-fbe66f9a6f70",
+        "chatSessionId": "sess_68eb5fd3-e3d4-474a-9936-a599d8d2470a",
+        "timestamp": 1789072600377
+      }
+    ]
+  }
+}
